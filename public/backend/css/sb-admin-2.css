@@ -94,33 +94,7 @@ p {
 }
 
 
-  /* CSS untuk memperbaiki tata letak */
-  .form-group {
-    position: relative;
-    margin-bottom: 1rem;
-}
 
-.form-control {
-    padding-right: 2.5rem !important; /* Menyesuaikan ruang untuk ikon */
-}
-
-.input-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
-    pointer-events: none;
-    color: #aaa; /* Warna ikon */
-}
-
-.form-control:focus+.input-icon {
-    color: #007bff; /* Warna ikon saat input dalam fokus */
-}
-
-.form-control:focus {
-    border-color: #007bff; /* Warna garis saat input dalam fokus */
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Efek bayangan saat input dalam fokus */
-}
 
 abbr[title],
 abbr[data-original-title] {

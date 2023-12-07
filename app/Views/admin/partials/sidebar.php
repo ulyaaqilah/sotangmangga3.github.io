@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-custom sidebar sidebar-dark accordion" id="accordionSidebar" style="background-image: linear-gradient(180deg, #d4a762 10%, #d4a762 100%);">
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-text mx-3">
@@ -14,7 +14,7 @@
     <li class="nav-item">
         <a class="nav-link" href="<?= route_to('dashboard') ?>">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span><strong>Dashboard</strong></span></a>
     </li>
 
     <!-- Divider -->
@@ -29,21 +29,22 @@
     <li class="nav-item">
         <a class="nav-link" href="<?= route_to('staff') ?>">
             <i class="fas fa-fw fa-user-tie"></i>
-            <span>Manajemen Staff</span>
+            <span><strong>Manajemen Staff</strong></span>
         </a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="<?= route_to('pelanggan') ?>">
-            <i class="fas fa-fw fa-users"></i>
-            <span>Manajemen Pelanggan</span>
-        </a>
-    </li>
+    <a class="nav-link" href="<?= route_to('pelanggan') ?>">
+        <i class="fas fa-fw fa-users"></i>
+        <span><strong>Manajemen Pelanggan</strong></span>
+    </a>
+</li>
+
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
+            <span><strong>Pages</strong></span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -59,7 +60,7 @@
     <li class="nav-item">
         <a class="nav-link" href="<?= route_to('adminlogout') ?>">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Logout</span>
+            <span><strong>Logout</strong></span>
         </a>
     </li>
 

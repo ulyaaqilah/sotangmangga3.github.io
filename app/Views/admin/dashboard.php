@@ -3,30 +3,31 @@
 <div class="row">
     <!-- Earnings (Monthly) Card Example -->
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-primary shadow h-100 py-2">
-            <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                            Earnings (Monthly)</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                    </div>
-                    <div class="col-auto">
-                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                    </div>
+    <div class="card" style="border-left: 4px solid #d4a762; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 100%; padding: 0.5rem;">
+        <div class="card-body">
+            <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                    <div class="text-xs font-weight-bold" style="color: #d4a762;">
+                        EARNINGS (MONTHLY)</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                </div>
+                <div class="col-auto">
+                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- Earnings (Monthly) Card Example -->
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
+    <div class="card" style="border-left: 4px solid #d4a762; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 100%; padding: 0.5rem;">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                            Earnings (Annual)</div>
+                    <div class="text-xs font-weight-bold" style="color: #d4a762;">
+                            EARNINGS (ANNUAL)</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
                     </div>
                     <div class="col-auto">
@@ -39,11 +40,11 @@
 
     <!-- Earnings (Monthly) Card Example -->
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-info shadow h-100 py-2">
+    <div class="card" style="border-left: 4px solid #d4a762; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 100%; padding: 0.5rem;">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                        <div class="text-xs font-weight-bold" style="color: #dcb881;">TASKS
                         </div>
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
@@ -51,10 +52,9 @@
                             </div>
                             <div class="col">
                                 <div class="progress progress-sm mr-2">
-                                    <div class="progress-bar bg-info" role="progressbar"
-                                        style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
+                                <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #d4a762;"
+            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
                             </div>
                         </div>
                     </div>
@@ -68,12 +68,12 @@
 
     <!-- Pending Requests Card Example -->
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-warning shadow h-100 py-2">
+    <div class="card" style="border-left: 4px solid #d4a762; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 100%; padding: 0.5rem;">
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                            Pending Requests</div>
+                    <div class="text-xs font-weight-bold" style="color: #d4a762;">
+                            PENDING REQUESTS</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                     </div>
                     <div class="col-auto">
@@ -95,7 +95,7 @@
             <!-- Card Header - Dropdown -->
             <div
                 class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                <h6 class="m-0 font-weight-bold" style="color: #d4a762;">Earnings Overview</h6>
                 <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -126,7 +126,7 @@
             <!-- Card Header - Dropdown -->
             <div
                 class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                <h6 class="m-0 font-weight-bold" style="color: #d4a762;">Revenue Sources</h6>
                 <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -144,21 +144,22 @@
             </div>
             <!-- Card Body -->
             <div class="card-body">
-                <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
-                </div>
-                <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                        <i class="fas fa-circle text-primary"></i> Direct
-                    </span>
-                    <span class="mr-2">
-                        <i class="fas fa-circle text-success"></i> Social
-                    </span>
-                    <span class="mr-2">
-                        <i class="fas fa-circle text-info"></i> Referral
-                    </span>
-                </div>
-            </div>
+    <div class="chart-pie pt-4 pb-2">
+        <canvas id="myPieChart"></canvas>
+    </div>
+    <div class="mt-4 text-center small">
+        <span class="mr-2">
+            <i class="fas fa-circle" style="color: #8B4513;"></i> Direct <!-- Cokelat Tua -->
+        </span>
+        <span class="mr-2">
+            <i class="fas fa-circle" style="color: #D2B48C;"></i> Social <!-- Cokelat Muda -->
+        </span>
+        <span class="mr-2">
+            <i class="fas fa-circle" style="color: #A52A2A;"></i> Referral <!-- Cokelat Sedang -->
+        </span>
+    </div>
+</div>
+
         </div>
     </div>
 </div> 
