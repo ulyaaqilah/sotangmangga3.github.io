@@ -68,6 +68,11 @@
             <?php else : ?>
               <a href="<?= route_to('pelangganlogout') ?>" class="nav-item nav-link">Logout</a>
           </div>
+          <div class="nav-item">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#keranjangModal">
+              <i class="fa fa-shopping-cart"></i> 
+            </a>
+          </div>
           <div class="dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span style="padding-right:10px" class="mr-2 d-none d-lg-inline text-gray-600 large with-divider border-left"><?= session('nama_pelanggan') ?></span>
@@ -641,6 +646,97 @@
     </div>
   </section>
   <!-- Modal Logout -->
+
+  <!-- Modal -->
+<div class="modal" id="keranjangModal" tabindex="-1" role="dialog" aria-labelledby="keranjangModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+        <div class="modal-content">
+      <!-- Isi dari modal di sini -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="keranjangModalLabel">Keranjang</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <div class="table-responsive">
+            <table class="table">
+                  <thead>
+                      <tr>
+                          <th scope="col">Produk</th>
+                          <th scope="col">Menu</th>
+                          <th scope="col">Harga</th>
+                          <th scope="col">Quantity</th>
+                          <th scope="col">Total</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <!-- Product 1 -->
+                      <tr>
+                          <th scope="row">
+                              <div class="d-flex align-items-center">
+                                  <img src="img/fruite-item-5.jpg" class="img-fluid me-5 rounded-circle"
+                                      style="width: 80px; height: 80px;" alt="">
+                              </div>
+                          </th>
+                          <td>
+                              <p class="mb-0 mt-4">Sotang Original </p>
+                          </td>
+                          <td>
+                              <p class="mb-0 mt-4">15.000</p>
+                          </td>
+                          <td>
+                              <div class="input-group quantity mt-4" style="width: 100px;">
+                                  <div class="input-group-btn">
+                                      <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                          <i class="fa fa-minus"></i>
+                                      </button>
+                                  </div>
+                                  <input type="text" class="form-control form-control-sm text-center border-0"
+                                      value="1">
+                                  <div class="input-group-btn">
+                                      <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                          <i class="fa fa-plus"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              <p class="mb-0 mt-4">15.000</p>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+              <div class="container">
+                  <div class="row">
+                      <!-- Left Section - Table -->
+                      <div class="col-md-6">
+                          <table class="table">
+                              <!-- Your table content goes here -->
+                          </table>
+                      </div>
+  
+                      <!-- Right Section -->
+                      <div class="col-mt-0">
+                          <!-- Subtotal -->
+                          <h4 class="mt-4">Subtotal: <span id="subtotal">45.000</span></h4>
+  
+                          <!-- Checkout Button -->
+                          <div class="mt-9">
+                              <a href="chackout.html"
+                                  class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4"
+                                  type="button">Checkout</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+     
+      </div>
+    </div>
+  </div>
+
+</div>
   <!-- JavaScript Libraries -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
