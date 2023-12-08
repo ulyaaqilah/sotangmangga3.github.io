@@ -6,7 +6,7 @@
             <div class="card-body p-0">
                 <div class="p-5">
                     <div class="text-center">
-                        <h1 class="h4 text-gray-900 mb-4">Tambah Data Pelanggan</h1>
+                    <h1 class="h4 900 mb-4" style="color: #d4a762;">Tambah Data Pelanggan</h1>
                     </div>
                     <form action="<?= route_to('pelanggantambahstore') ?>" method="post" enctype="multipart/form-data">
                         <?= csrf_field() ?>
@@ -48,7 +48,7 @@
                         </div>
                         </div>
                                     <td>
-                                      <button class="col-sm-6 offset-sm-3 btn btn-primary" type="button" data-toggle="modal" data-target="#konfirmasiModal">
+                                      <button class="col-sm-6 offset-sm-3 btn btn-primary" type="button" data-toggle="modal" data-target="#konfirmasiModal"style="background-color: #d4a762; border-color: #d4a762;">
                                         Tambahkan
                                       </button>
                                     </td>

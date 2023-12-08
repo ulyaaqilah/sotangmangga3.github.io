@@ -3,7 +3,7 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Edit Omset</h1>
+    <h1 class="h4 900 mb-4" style="color: #d4a762;">Edit Omset</h1>
     <p class="mb-4">Gunakan form di bawah ini untuk mengedit data omset.</p>
     <div class="table-responsive">
         <form action="<?= route_to('omseteditstore') ?>" method="post" enctype="multipart/form-data">
@@ -46,7 +46,7 @@
                 <div class="row">
                     <!-- Right Section -->
                     <div class="mx-auto">
-                        <button type="submit" class="btn btn-primary btn-user btn-block">Simpan Perubahan</button>
+                        <button type="submit" class="btn btn-primary btn-user btn-block" style="background-color: #d4a762; border-color: #d4a762;">Simpan Perubahan</button>
                     </div>
                 </div>
             </div>

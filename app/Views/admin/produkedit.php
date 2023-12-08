@@ -6,7 +6,7 @@
             <div class="card-body p-0">
                 <div class="p-5">
                     <div class="text-center">
-                        <h1 class="h4 text-gray-900 mb-4">Edit Data Produk</h1>
+                    <h1 class="h4 900 mb-4" style="color: #d4a762;">Edit Data Produk</h1>
                     </div>
                     <form class="user" action="<?= route_to('produkeditstore') ?>" method="post" enctype="multipart/form-data">
                         <!-- Tambahkan input hidden untuk menyimpan ID produk yang diubah -->
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 offset-sm-3">
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Simpan Perubahan</button>
+                            <button type="submit" class="btn btn-primary btn-user btn-block" style="background-color: #d4a762; border-color: #d4a762;">Simpan Perubahan</button>
                         </div>
                     </form>
 

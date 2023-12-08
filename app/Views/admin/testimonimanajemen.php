@@ -10,7 +10,7 @@
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">DataTables Manajemen Testimoni</h6>
+            <h6 class="m-0 font-weight-bold" style="color: #d4a762;">DataTables Manajemen Testimoni</h6>
         </div>
         <div class="card-body">
             <div class="text-weight mb-3">

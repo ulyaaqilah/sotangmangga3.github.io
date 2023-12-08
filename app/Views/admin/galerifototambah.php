@@ -6,7 +6,7 @@
             <div class="card-body p-0">
                 <div class="p-5">
                     <div class="text-center">
-                        <h1 class="h4 text-gray-900 mb-4">Tambah Data Galeri Foto</h1>
+                    <h1 class="h4 900 mb-4" style="color: #d4a762;">Tambah Data Galeri Foto</h1>
                     </div>
                     <form action="<?= route_to('galerifototambahstore') ?>" method="post" enctype="multipart/form-data">
                         <?= csrf_field() ?>
@@ -30,7 +30,7 @@
                         </div>
                         <br>
                         <div class="col-sm-6 offset-sm-3">
-                            <button type="submit" class="btn btn-primary btn-user btn-block">Tambahkan</button>
+                            <button type="submit" class="btn btn-primary btn-user btn-block" style="background-color: #d4a762; border-color: #d4a762;">Tambahkan</button>
                         </div>
                     </form>
                 </div>

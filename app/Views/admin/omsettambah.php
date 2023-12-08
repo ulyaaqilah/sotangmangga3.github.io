@@ -51,7 +51,7 @@
                 <div class="row">
                     <!-- Right Section -->
                     <div class="mx-auto">
-                        <button type="submit" class="btn btn-primary btn-user btn-block">Tambahkan</button>
+                        <button type="submit" class="btn btn-primary btn-user btn-block" style="background-color: #d4a762; border-color: #d4a762;">Tambahkan</button>
                     </div>
                 </div>
             </div>
