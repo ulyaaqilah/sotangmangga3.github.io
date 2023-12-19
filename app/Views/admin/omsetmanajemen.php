@@ -3,14 +3,13 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-        For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
+    <h1 class="h3 mb-2 text-gray-800">Table Omset</h1>
+    <p class="mb-4">Tabel ini merupakan table yang mengelola data omset dengan opsi untuk menambahkan,mengedit dan menghapus data.</p>
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold " style="color: #d4a762;">DataTables Manajemen Omset</h6>
+            <h6 class="m-0 font-weight-bold " style="color: #d4a762;">Data Omset</h6>
         </div>
         <div class="card-body">
             <div class="text-weight mb-3">

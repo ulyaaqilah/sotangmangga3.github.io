@@ -155,8 +155,20 @@
                         <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
                           <h4><?= $pr['nama_produk']; ?></h4>
                           <h4 class="text-primary"><?= 'Rp ' . number_format($pr['harga'], 0, ",", "."); ?></h4>
-                        </div>
-                        <p class="mb-0"><?= $pr['deskripsi_produk']; ?></p>
+                          </div>
+                        <div class="d-flex justify-content-between">
+    <p class="mb-0"><?= $pr['deskripsi_produk']; ?></p>
+    <div class="d-flex justify-content-end">
+    <button class="btn btn-primary btn-add-to-cart me-2">
+                              <i class="far fa-eye"></i> 
+                          </button>
+                          <button class="btn btn-primary btn-add-to-cart ms-2">
+                              <i class="fas fa-plus"></i>
+                          </button>
+    </div>
+</div>
+
+</p>
                         <p class="mb-0"><b><?= $pr['status']; ?></b></p>
                       </div>
                     </div>
